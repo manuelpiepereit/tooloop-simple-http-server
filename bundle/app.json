@@ -1,0 +1,18 @@
+{
+	"name": "SimpleHTTPServer",
+	"description": "A simple kiosk browser using the SimpleHTTPServer python module chromium.",
+	"media": [],
+	"version": "0.1",
+	"last_updated": "2018-11-21",
+	"license": "Public domain",
+	"category": "Examples",
+	"tags": ["example"],
+	"developer": "vollstock, manuelpiepereit",
+	"homepage": "http://www.neonpastell.de/",
+	"compatibility": {
+		"s": "True",
+		"m": "True",
+		"l": "True",
+		"xl": "True"
+	}
+}
