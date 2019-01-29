@@ -7,19 +7,22 @@ cd /assets/data
 URL="http://localhost:9000"
 
 COMMAND="chromium-browser \
---kiosk \
 --bwsi \
---overscroll-history-navigation=1 \
---incognito \
+--class=TooloopKiosk \
+--disable-overscroll-edge-effect \
 --disable-infobars \
 --disable-translate \
---no-default-browser-check \
---no-first-run \
---disable-translate-new-ux \
---num-raster-threads=4 \
+--disable-pinch \
 --enable-zero-copy \
+--incognito \
 --noerrdialogs \
---class=TooloopKiosk \
+--no-default-browser-check \
+--no-message-box \
+--no-first-run \
+--num-raster-threads=4 \
+--overscroll-history-navigation=0 \
+--pull-to-refresh=0 \
+--kiosk \
 $URL"
 
 # kill open port and chromium
